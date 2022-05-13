@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family:  Arial, sans-serif;
+}
+
+/* Formatação do Cabeçalho */
+#cabecalho {
+    text-align: center;
+    background-color: rgb(21, 181, 221);
+    font-size: 20pt;
+}
+
+#cabecalho h1 {
+    font-size: 2.5em;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#menu {
+    font-size: .8em;
+    padding-bottom: 20px;
+
+}
+
+#cabecalho a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+    margin: 12px;
+}
+
+#cabecalho a:hover {
+    /*definimos a largura do box*/
+	width:300px;
+	/* definimos a altura do box */
+	height:100px;
+	/* definimos a cor de fundo do box */
+	background-color:#666;
+	/* definimos o quão arredondado irá ficar nosso box */
+	border-radius: 10px;
+}
+
+/* Formatação do corpo */
+#corpo {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#conts {
+    font-size: 14pt;
+    width: 660px;
+    float: left;
+}
+
+div.cont-principal-cabecalho {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+div.cont-principal h2 {
+    color: rgb(21, 181, 221);
+    font-size: 1.7em;
+}
+
+div.cont-principal h3{
+    font-size: 1em;
+}
+
+div.cont-principal p {
+    margin-top: 10px;
+    font-size: .9em;
+}
+
+div.cont-principal a, #cont-secundario a {
+    display: inline-block;
+    color: rgb(46, 103, 117);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+div.cont-principal a:hover, div.cont-secundario a:hover {
+    text-decoration: underline 1.3px;
+}
+
+#cont-secundario {
+    width: 240px;
+    float: right;
+    margin-top: 40px;
+}
+
+#cont-secundario h2 {
+    background-color: rgb(21, 181, 221);
+    color: grey;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+#cont-secundario p {
+    font-size: .9em;
+    margin-top: 20px;
+}
+#cont-secundario a {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#post-renc {
+    margin-bottom: 20px;
+}
+
+#cat ul {
+    list-style: none;
+    margin-top: 8px;
+}
+
+#cat li {
+    margin-bottom: -32px;
+
+}
+
+/* Formatação do rodapé */
+#rodape {
+    text-align: center;
+    margin: auto;
+    background-color: rgb(21, 181, 221);
+    padding: 25px;
+    font-weight: bold;
+    font-size: 16pt;
+    margin-top: 90px;
+    clear: both;
+}
